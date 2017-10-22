@@ -2,7 +2,7 @@ require 'codeclimate-test-reporter'
 CodeClimate::TestReporter.start
 
 require 'bundler/setup'
-require 'shutterstock-ruby'
+require 'shutterstock-ruby-0.5.0'
 require 'pry'
 require 'faker'
 require 'json'
