@@ -18,8 +18,8 @@ RSpec.describe ShutterstockRuby do
     key = SecureRandom.uuid
     secret = SecureRandom.uuid
     ShutterstockRuby.configure do |config|
-      config.api_client = key
-      config.api_secret = secret
+      config.api_client = '99c83-9c5f6-78a4a-807e0-6901b-72186'
+      config.api_secret = 'c9708-18b23-3abe3-e8003-7ee9e-32665'
     end
 
     expect(ShutterstockRuby.configuration.api_client).to equal(key)
